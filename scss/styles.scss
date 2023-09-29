@@ -7,10 +7,18 @@
     background-size: cover;
 }
 
+.navbar-sticky {
+    opacity: 0.9;
+}
+
 @media (max-width:1000px) {
     .hero .image-container {
         display: flex;
         justify-content: center;
     }
+
+    .hero .text-container {
+        text-align: center;
+    }
     
-}
+} 
